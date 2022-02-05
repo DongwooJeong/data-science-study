@@ -2,7 +2,7 @@ import tensorflow as tf
 import pandas as pd
  
 filepath = 'https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/lemonade.csv'
-lemonade = pd.read_csv(파일경로)
+lemonade = pd.read_csv(filepath)
 lemonade.head()
 
 independent = lemonade[['온도']]
